@@ -1,7 +1,8 @@
 body{
-    background-color: #a0e5ee;
+    background-color: rgb(226, 235, 97);
+    color: #000000;
+    font-family: arial;
     
-
 }
 p{
     line-height: 2.35em;
@@ -9,4 +10,52 @@ p{
 img{
     width: 250px;
     float: left;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-right: 20px;
 }
+h1{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    Text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    font-family: Georgia;
+}
+h2{
+    font-size: 1.3em;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    border-left: 20px double white;
+    padding: 15px;
+    border-radius: 20px;
+    border-bottom: 2px solid #ccc;
+    width: 200px;
+}
+p{
+    line-height: 2.4em;
+    background-color: #9b9090;
+    padding: 20px;
+    border: 2px dotted black;
+}
+/* PSEUDO SELECTORS */
+a:link{
+    color:rgb(246, 53, 53);
+    text-decoration:none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(101, 1, 1);
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    color: white;
+}
+/* ACTIVE ID*/
