@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(226, 235, 97);
+    background-color: rgb(127, 200, 194);
     color: #000000;
     font-family: arial;
     width: 900px;
@@ -84,4 +84,61 @@ a:active{
     padding: 2px;
     border-radius: 3px;
     font-weight: bold;
+}
+
+#sidebar{
+    background-color:rgb(238, 84, 84) ;
+    width: 250px;
+    line-height:2.3em;
+    border: 2px solid white;
+    float: right;
+    margin: 20px;   
+}
+
+#sidebar h3{
+    border:none;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top:15px;
+    background: none;
+    border: 2px dotted white;
+}
+li{
+    font-style: italic;
+}
+
+@media (max-width:1200px){
+    #container{
+        background-color: rgb(116, 236, 236);
+        width: 800px;
+    }
+}
+
+@media (max-width:992px){
+    #container{
+        background-color: rgb(149,238,238);
+        width: 100%;
+    }
+    body, p, #container{
+        margin: 0;
+        border: none;
+        padding: 0;
+        
+    }
+    p{
+        padding: 20px;
+    }
+    @media (max-width: 768px){
+        #sidebar{
+            display: none
+        }
+        h1{
+            border:none;
+            background:none;
+        }
+    }
+    img{
+        width: 200px;
+    }
 }
